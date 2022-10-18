@@ -4,10 +4,34 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: #313954;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.apexcharts-canvas {
+  background-image: url('src/assets/images/chart/grid.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 25px;
+    background-position-y: 29px;
+}
+.tooltip-style {
+  text-align: center;
+  padding: 6px 0;
+  min-width: 112px;
+  border-radius: 125px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #1F1F2D;
+  color: #fff;
+
 }
